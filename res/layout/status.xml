@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/toos"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="40"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/TeachText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Teach" />
+
+            <Spinner
+                android:id="@+id/TeachSpinner"
+                android:layout_width="200dp"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/LearnText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Want to learn" />
+
+            <Spinner
+                android:id="@+id/LearnSpinner"
+                android:layout_width="200dp"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/SexText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gender" />
+
+            <Spinner
+                android:id="@+id/SexSpinner"
+                android:layout_width="200dp"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/countryText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Country" />
+
+            <Spinner
+                android:id="@+id/CountrySopinner"
+                android:layout_width="200dp"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/hobby"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hobby"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/hobbyText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/Type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Type of exchange wanted"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="40"
+                android:orientation="horizontal" >
+
+                <CheckBox
+                    android:id="@+id/check"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="E-mail" >
+                </CheckBox>
+
+                <CheckBox
+                    android:id="@+id/check2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Text Chat" >
+                </CheckBox>
+
+                <CheckBox
+                    android:id="@+id/check3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Voice Chat" >
+                </CheckBox>
+
+                <CheckBox
+                    android:id="@+id/check4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="In Person" >
+                </CheckBox>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/Introduce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Introduce"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/IntroduceTExt"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_weight="23"
+                android:ems="10"
+                android:inputType="textMultiLine" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="6"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/peopleBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="People" />
+
+        <Button
+            android:id="@+id/friendBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Friend" />
+
+        <Button
+            android:id="@+id/statusBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Status" />
+
+        <Button
+            android:id="@+id/settingBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Setting" />
+    </LinearLayout>
+
+</LinearLayout>
