@@ -65,7 +65,7 @@ public class UserList extends CustomActivity
 
 			@Override
 			public void onClick(View v){
-				Intent intent = new Intent(UserList.this, Status.class);
+				Intent intent = new Intent(UserList.this, MyStatus.class);
 				startActivity(intent);
 			}
 		});

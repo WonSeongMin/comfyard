@@ -72,8 +72,7 @@
             <EditText
                 android:id="@+id/hobbyText"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10" >
+                android:layout_height="wrap_content">
             </EditText>
 
             <TextView
@@ -90,28 +89,28 @@
                 android:orientation="horizontal" >
 
                 <CheckBox
-                    android:id="@+id/check"
+                    android:id="@+id/chkEmail"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="E-mail" >
                 </CheckBox>
 
                 <CheckBox
-                    android:id="@+id/check2"
+                    android:id="@+id/chkText"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Text Chat" >
                 </CheckBox>
 
                 <CheckBox
-                    android:id="@+id/check3"
+                    android:id="@+id/chkVoice"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Voice Chat" >
                 </CheckBox>
 
                 <CheckBox
-                    android:id="@+id/check4"
+                    android:id="@+id/chkInperson"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="In Person" >
@@ -126,12 +125,18 @@
                 android:textAppearance="?android:attr/textAppearanceSmall" />
 
             <EditText
-                android:id="@+id/IntroduceTExt"
+                android:id="@+id/IntroduceText"
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
-                android:layout_weight="23"
-                android:ems="10"
+                android:layout_height="wrap_content"
+                android:minLines="3"
+                android:gravity ="top"
                 android:inputType="textMultiLine" />
+
+            <Button
+                android:id="@+id/saveBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Save" />
         </LinearLayout>
     </ScrollView>
 

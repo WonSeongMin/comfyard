@@ -76,7 +76,7 @@ public class Login extends CustomActivity
 					{
 						UserList.user = pu;
 						FriendList.user = pu;
-						Status.user = pu;
+						MyStatus.user = pu;
 						startActivity(new Intent(Login.this, UserList.class));
 						finish();
 					}

@@ -70,39 +70,53 @@ public final class R {
     public static final class id {
         public static final int CountrySopinner=0x7f09001b;
         public static final int Introduce=0x7f090023;
-        public static final int IntroduceTExt=0x7f090024;
+        public static final int IntroduceText=0x7f090024;
+        public static final int Learn=0x7f09002d;
         public static final int LearnSpinner=0x7f090017;
         public static final int LearnText=0x7f090016;
         public static final int ScrollView01=0x7f090013;
         public static final int SexSpinner=0x7f090019;
         public static final int SexText=0x7f090018;
+        public static final int Teach=0x7f09002b;
         public static final int TeachSpinner=0x7f090015;
         public static final int TeachText=0x7f090014;
         public static final int Type=0x7f09001e;
         public static final int btnLogin=0x7f090010;
         public static final int btnReg=0x7f090011;
         public static final int btnSend=0x7f090002;
-        public static final int check=0x7f09001f;
-        public static final int check2=0x7f090020;
-        public static final int check3=0x7f090021;
-        public static final int check4=0x7f090022;
+        public static final int chkEmail=0x7f09001f;
+        public static final int chkInperson=0x7f090022;
+        public static final int chkText=0x7f090020;
+        public static final int chkVoice=0x7f090021;
+        public static final int closeBtn=0x7f090032;
         public static final int countryText=0x7f09001a;
         public static final int email=0x7f090012;
+        public static final int emailText=0x7f09002a;
         public static final int friendBtn=0x7f090009;
+        public static final int gender=0x7f090028;
+        public static final int genderText=0x7f090029;
         public static final int hobby=0x7f09001c;
         public static final int hobbyText=0x7f09001d;
         public static final int imageView1=0x7f09000c;
+        public static final int introduce=0x7f090030;
+        public static final int introduceText=0x7f090031;
         public static final int lbl1=0x7f090005;
         public static final int lbl2=0x7f090006;
         public static final int lbl3=0x7f090007;
+        public static final int learnText=0x7f09002e;
         public static final int list=0x7f090000;
         public static final int llaa=0x7f090003;
         public static final int main=0x7f09000f;
+        public static final int name=0x7f090026;
+        public static final int nameText=0x7f090027;
         public static final int peopleBtn=0x7f090008;
         public static final int pwd=0x7f09000e;
+        public static final int saveBtn=0x7f090025;
         public static final int settingBtn=0x7f09000b;
         public static final int statusBtn=0x7f09000a;
+        public static final int teachText=0x7f09002c;
         public static final int txt=0x7f090001;
+        public static final int typeText=0x7f09002f;
         public static final int user=0x7f09000d;
         public static final int v1=0x7f090004;
     }
@@ -117,6 +131,7 @@ public final class R {
         public static final int setting=0x7f030007;
         public static final int status=0x7f030008;
         public static final int user_list=0x7f030009;
+        public static final int user_status=0x7f03000a;
     }
     public static final class string {
         public static final int alert_loading=0x7f060016;

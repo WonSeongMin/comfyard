@@ -68,7 +68,7 @@ public class FriendList extends CustomActivity
 
 			@Override
 			public void onClick(View v){
-				Intent intent = new Intent(FriendList.this, Status.class);
+				Intent intent = new Intent(FriendList.this, MyStatus.class);
 				startActivity(intent);
 			}
 		});

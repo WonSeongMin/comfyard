@@ -27,7 +27,7 @@ public class Setting extends Activity{
 
 			@Override
 			public void onClick(View v){
-				Intent intent = new Intent(Setting.this, Status.class);
+				Intent intent = new Intent(Setting.this, MyStatus.class);
 				startActivity(intent);
 			}
 		});
